@@ -1,0 +1,31 @@
+.btn {
+  display: inline-block;
+  background: #ffffff;
+  color: #111111;
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(16, 24, 40, 0.06);
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  cursor: pointer;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.btn--s {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 8px 14px;
+}
+
+.btn--m {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 10px 16px;
+}
+
+.btn:focus {
+  outline: 3px solid rgba(100,108,255,0.18);
+  outline-offset: 2px;
+}
