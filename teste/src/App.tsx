@@ -10,6 +10,7 @@ function App() {
         <div className="btn-wrapper">
           <Btn size="S">Btn</Btn>
           <Btn size="M">Btn</Btn>
+          <Btn size="L">Btn</Btn>
         </div>
       </div>
     </div>

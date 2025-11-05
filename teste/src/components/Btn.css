@@ -25,6 +25,13 @@
   padding: 10px 16px;
 }
 
+.btn--l {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 12px 20px;
+}
+
 .btn:focus {
   outline: 3px solid rgba(100,108,255,0.18);
   outline-offset: 2px;
