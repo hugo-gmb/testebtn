@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
 import Btn from './components/Btn'
+import Pill from './components/Pill'
 
 function App() {
   return (
@@ -11,6 +12,9 @@ function App() {
           <Btn size="S">Btn</Btn>
           <Btn size="M">Btn</Btn>
           <Btn size="L">Btn</Btn>
+        </div>
+        <div style={{ marginLeft: 24 }}>
+          <Pill label="Pill" />
         </div>
       </div>
     </div>

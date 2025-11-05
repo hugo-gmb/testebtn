@@ -11,8 +11,11 @@
   --font-family-inter: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
 
   /* Colors */
-  --color-bg: #ffffff;
-  --color-text: #111111;
+  /* Primary colors from Figma */
+  --primary-100: #ffffff;
+  --primary-300: #111111;
+  --color-bg: var(--primary-100);
+  --color-text: var(--primary-300);
   --color-muted-border: rgba(0, 0, 0, 0.06);
   --color-shadow: rgba(16, 24, 40, 0.06);
   --color-focus-outline: rgba(100, 108, 255, 0.18);
@@ -42,4 +45,21 @@
 
   /* Radius */
   --radius-md: 8px;
+
+  /* Pill / badge tokens */
+  /* Size tokens from Figma (Size-S=4, Size-M=8, Size-L=16) */
+  --size-s: 4px;
+  --size-m: 8px;
+  --size-l: 16px;
+
+  /* Pill / badge tokens (use Figma primaries) */
+  --pill-bg: var(--primary-300);
+  --pill-text: var(--primary-100);
+  --pill-border: rgba(0,0,0,0.08);
+  --pill-shadow: 0 2px 8px rgba(16,24,40,0.06);
+  --pill-padding-y: var(--size-s);
+  --pill-padding-x: var(--size-m);
+  --pill-font-size: 12px;
+  --pill-font-weight: 700;
+  --pill-radius: var(--size-l);
 }

@@ -1,0 +1,18 @@
+.pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--pill-bg);
+  color: var(--pill-text);
+  padding: var(--pill-padding-y) var(--pill-padding-x);
+  border-radius: var(--pill-radius);
+  box-shadow: var(--pill-shadow);
+  border: 1px solid var(--pill-border);
+  font-family: var(--font-family-inter);
+  font-size: var(--pill-font-size);
+  font-weight: var(--pill-font-weight);
+}
+
+.pill__label {
+  line-height: 1;
+}
