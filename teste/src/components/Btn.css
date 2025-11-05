@@ -1,38 +1,38 @@
 .btn {
   display: inline-block;
-  background: #ffffff;
-  color: #111111;
-  border: 1px solid rgba(0,0,0,0.06);
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(16, 24, 40, 0.06);
-  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background: var(--btn-bg);
+  color: var(--btn-text);
+  border: 1px solid var(--btn-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--btn-shadow);
+  font-family: var(--font-family-inter);
   cursor: pointer;
   text-align: center;
   white-space: nowrap;
 }
 
 .btn--s {
-  font-size: 12px;
-  font-weight: 400;
+  font-size: var(--btn-font-size-s);
+  font-weight: var(--btn-font-weight-s);
   line-height: 1;
-  padding: 8px 14px;
+  padding: var(--btn-padding-y-s) var(--btn-padding-x-s);
 }
 
 .btn--m {
-  font-size: 14px;
-  font-weight: 600;
+  font-size: var(--btn-font-size-m);
+  font-weight: var(--btn-font-weight-m);
   line-height: 1;
-  padding: 10px 16px;
+  padding: var(--btn-padding-y-m) var(--btn-padding-x-m);
 }
 
 .btn--l {
-  font-size: 16px;
-  font-weight: 600;
+  font-size: var(--btn-font-size-l);
+  font-weight: var(--btn-font-weight-l);
   line-height: 1;
-  padding: 12px 20px;
+  padding: var(--btn-padding-y-l) var(--btn-padding-x-l);
 }
 
 .btn:focus {
-  outline: 3px solid rgba(100,108,255,0.18);
+  outline: 3px solid var(--btn-focus-outline);
   outline-offset: 2px;
 }

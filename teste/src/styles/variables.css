@@ -1,0 +1,45 @@
+/*
+  Global design tokens exported as CSS variables.
+  Based on Figma variable set (please select the variable set in Figma and re-run
+  the variable fetch to replace these defaults with exact values)
+  Figma URL: https://www.figma.com/design/cTpufNx1x2cVb2Nu7Z6ZqK/sync-lib-mcp
+  Var set requested: ?var-set-id=1-2
+*/
+
+:root {
+  /* Typography */
+  --font-family-inter: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+
+  /* Colors */
+  --color-bg: #ffffff;
+  --color-text: #111111;
+  --color-muted-border: rgba(0, 0, 0, 0.06);
+  --color-shadow: rgba(16, 24, 40, 0.06);
+  --color-focus-outline: rgba(100, 108, 255, 0.18);
+
+  /* Semantic button tokens */
+  --btn-bg: var(--color-bg);
+  --btn-text: var(--color-text);
+  --btn-border: var(--color-muted-border);
+  --btn-shadow: 0 4px 12px var(--color-shadow);
+  --btn-focus-outline: var(--color-focus-outline);
+
+  /* Button sizes */
+  --btn-font-size-s: 12px;
+  --btn-font-weight-s: 400;
+  --btn-padding-y-s: 8px;
+  --btn-padding-x-s: 14px;
+
+  --btn-font-size-m: 14px;
+  --btn-font-weight-m: 600;
+  --btn-padding-y-m: 10px;
+  --btn-padding-x-m: 16px;
+
+  --btn-font-size-l: 16px;
+  --btn-font-weight-l: 600;
+  --btn-padding-y-l: 12px;
+  --btn-padding-x-l: 20px;
+
+  /* Radius */
+  --radius-md: 8px;
+}
