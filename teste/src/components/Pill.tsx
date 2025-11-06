@@ -1,4 +1,3 @@
-import React from 'react'
 import './Pill.css'
 
 /** Figma reference for this component

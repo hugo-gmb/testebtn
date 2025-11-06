@@ -1,4 +1,3 @@
-import React from 'react'
 import './App.css'
 import Btn from './components/Btn'
 import Pill from './components/Pill'
