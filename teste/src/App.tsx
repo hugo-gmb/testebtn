@@ -1,6 +1,7 @@
 import './App.css'
 import Btn from './components/Btn'
 import Pill from './components/Pill'
+import Card from './components/Card'
 
 function App() {
   return (
@@ -16,6 +17,10 @@ function App() {
           <Pill label="Pill" />
         </div>
       </div>
+
+      <section style={{ marginTop: 24, display: 'flex', justifyContent: 'center' }}>
+        <Card title="Ocean Breeze" />
+      </section>
     </div>
   )
 }
